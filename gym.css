@@ -1,0 +1,139 @@
+body
+{
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+    background-image: url('./Pic/gym/maybebg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif !important;
+}
+.navbar a
+{
+    color: #000000;
+}
+.yellow
+{
+    color: rgb(255, 255, 35);
+}
+
+.textcolor
+{
+    color: #ffffff;
+}
+.navbg{
+    padding-top: 20px !important;
+    opacity: 0.8;
+}
+.navbg a:hover{
+    opacity: 1;
+    color: #000000;
+}
+.navbarhover
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbarhover:hover
+{
+    border-radius: 10px;
+    background-color: #c5bbbbcc;
+}
+.Booknow
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.Booknow:hover
+{
+    color: white;
+}
+.tickmark
+{
+    color: #008000 ;
+}
+.modelgreen
+{
+    background-color: #78e478f5 !important;
+}
+.footertext
+{
+    text-align: justify;
+}
+.footer a
+{
+    color: black;
+    text-decoration: none;
+}
+.footer a:hover
+{
+    color: black;
+}
+.developer
+{
+    color: #000000;
+}
+.social-media i
+{
+    color: black !important;
+    padding: 5px !important;
+}
+.emailtext
+{
+    text-transform:lowercase;
+    text-align: center;
+}
+.lifttotop:hover
+{
+    background-color: #a3a0a07c;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px black;
+}
+
+.devrgb
+{
+    animation: myname 5s infinite;
+}
+
+@keyframes myname {
+    0%   {
+        color: #5d55ff;
+    }
+    10%
+    {
+        color: chartreuse;
+    }
+    20%  {
+        color: #ff0019;
+    }
+    30%
+    {
+        color: rgb(0, 0, 0);
+    }
+    40%
+    {
+        color: cyan;
+    }
+    50%
+    {
+        color: darkgoldenrod;
+    }
+    60%
+    {
+        color: darkorange;
+    }
+  70%  {
+      color: #f5de0d;
+  } 
+  80%
+  {
+      color: firebrick;
+  }
+  90%
+  {
+      color: mistyrose;
+  }
+  100% {
+      color: #19d95e;
+  }
+}

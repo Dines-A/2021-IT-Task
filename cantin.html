@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Cafeteria</title>
+    <!-- css -->
+    <link rel="stylesheet" href="cantin.css">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+     crossorigin="anonymous">
+
+     <!-- Bootstrap js -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+     <!-- Bundle js -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" 
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+     <!-- google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+     
+
+    <!-- awesome icon  -->
+    <script src="https://kit.fontawesome.com/a21faf7147.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="container-fluid px-0">
+            
+
+        <!-- navbar -->
+        <div class="header">
+            
+    
+          <nav class="navbar navbar-expand-lg bg-white navbg ">
+            <div class="container-fluid">
+              
+              <a class="navbar-brand" href="#"> <img src="./Pic/logo.png" alt="Banner" width="100px" height="70px" class="rounded-3 "> </a>
+    
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+               aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-sliders-h fa-2x"></span>
+              </button>
+    
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+                <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+                  <li class="nav-item navbarhover px-5 ">
+                    <a class="nav-link active" aria-current="page" href="Index.html">home</a>
+                  </li>
+                  <li class="nav-item navbarhover px-5 ">
+                    <a class="nav-link " href="Profile.html">Profile</a>
+                  </li>
+                  <li class="nav-item navbarhover px-5 ">
+                    <a class="nav-link " href="msg.html">message</a>
+                  </li>
+                  <li class="nav-item navbarhover px-5 ">
+                    <a class="nav-link " href="about.html">about</a>
+                  </li>
+    
+                </ul>
+    
+          </div>
+          </div>
+          </nav>
+    </div>
+    </div>
+
+  
+<div class="container">
+
+  <div class="row justify-content-between">
+    <div class="col-4 my-2">
+      <a href="hotel.html" class="btn btn-primary " ><i class="fas fa-chevron-left fa-2x"></i></a>
+    </div>
+    <div class="col-4 my-2 text-end">
+      <a href="gym.html" class="btn btn-primary" ><i class="fas fa-chevron-right fa-2x"></i></a>
+    </div>
+
+</div>
+</div>
+
+
+    <!-- content -->
+
+<div class="container">
+<h1 class="text-center my-5" >Tastie</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <form class=" my-5 px-5">
+                <input class="form-control me-2" type="search" placeholder="Search your cafeteria" aria-label="Search">
+                <button class="btn btn-outline-success mt-4" type="submit">Search</button>
+              </form>
+              
+        </div>
+    </div>
+</div>
+
+<div class="row">
+
+  
+  <div class="col">
+    <div class="card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./Pic/cafe/juice.jpg" class="img-fluid rounded-circle" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title">juices</h3>
+              <p class="card-text">Juice is a drink made from the extraction or pressing of the natural liquid 
+                  contained in fruit and vegetables. 
+                  It can also refer to liquids that are flavored with concentrate or other biological food sources,
+                   such as meat or seafood, such as clam juice..</p>
+
+                    <!-- Button trigger modal -->
+                <div class="text-center">
+                    <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Order
+                    </button>
+                    
+                </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered ">
+                        <div class="modal-content modelgreen">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <p>You order have taken hold a second <i class="fas fa-check-circle fa-2x tickmark"></i> </p>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+              <p class="card-text"><small class="text-muted">New milk shake added</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <!-- map -->
+                       <div class="ratio ratio-1x1">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d124401.6667808639!2d80.15165321518244!3d13.00047548304686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scafeteria%2Cchennai!5e0!3m2!1sen!2sin!4v1629228069760!5m2!1sen!2sin" 
+                         style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                         </div>
+                       
+    </div>
+
+
+
+</div>
+
+</div>
+
+
+<div class="container my-5">
+    <div class="row">
+
+        <div class="col">
+            <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./Pic/cafe/drinks.jpg" class="img-fluid rounded-circle" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h3 class="card-title"> Refreshing Drinks</h3>
+                      <p class="card-text"> summers, temperatures begin to soar high leaving everyone 
+                          feeling fatigued, sweaty and messed up. Staying hydrated is the most important 
+                          factor to keep going in this sweltering heat and maintain good health. stay safe</p>
+
+                                                          <!-- Button trigger modal -->
+                                                          <div class="text-center">
+                                                            <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#exampleModalcol-1">
+                                                                Order
+                                                            </button>
+                                                            
+                                                        </div>
+                                                            <!-- Modal -->
+                                                            <div class="modal fade" id="exampleModalcol-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                <div class="modal-dialog modal-dialog-centered ">
+                                                                <div class="modal-content modelgreen">
+                                                                    <div class="modal-header">
+                                                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                    <p>You order have taken hold a second <i class="fas fa-check-circle fa-2x tickmark"></i> </p>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                                    </div>
+                                                                </div>
+                                                                </div>
+                                                            </div>
+
+                      <p class="card-text"><small class="text-muted">Moscow Mule RS : 50 Only</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col">
+            <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./Pic/cafe/coffee.jpg" class="img-fluid rounded-circle" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h3 class="card-title"> Tea-Break</h3>
+                      <p class="card-text">Tea is an aromatic beverage prepared by pouring hot or boiling
+                           water over cured or fresh leaves of Camellia sinensis, an evergreen shrub native to China 
+                           and East Asia.
+                           After water, it is the most widely consumed drink in the world.</p>
+
+                           
+                                                          <!-- Button trigger modal -->
+                                                          <div class="text-center">
+                                                            <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#exampleModalcol-2">
+                                                                Order
+                                                            </button>
+                                                            
+                                                        </div>
+                                                            <!-- Modal -->
+                                                            <div class="modal fade" id="exampleModalcol-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                <div class="modal-dialog modal-dialog-centered ">
+                                                                <div class="modal-content modelgreen">
+                                                                    <div class="modal-header">
+                                                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                    <p>You order have taken hold a second <i class="fas fa-check-circle fa-2x tickmark"></i> </p>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                                    </div>
+                                                                </div>
+                                                                </div>
+                                                            </div>
+
+                      <p class="card-text"><small class="text-muted">New branch in Mumbai</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col">
+            <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./Pic/cafe/breds.jpg" class="img-fluid rounded-circle" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h3 class="card-title"> brĕad</h3>
+                      <p class="card-text">Bread is a staple food prepared from a dough of flour and water,
+                           usually by baking.
+                           Throughout recorded history, it has been a prominent food in large parts of the world
+                            all type of breads are available here with offers.
+                        </p>
+                        
+                                                          <!-- Button trigger modal -->
+                                                          <div class="text-center">
+                                                            <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#exampleModalcol-4">
+                                                                Order
+                                                            </button>
+                                                            
+                                                        </div>
+                                                            <!-- Modal -->
+                                                            <div class="modal fade" id="exampleModalcol-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                <div class="modal-dialog modal-dialog-centered ">
+                                                                <div class="modal-content modelgreen">
+                                                                    <div class="modal-header">
+                                                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                    <p>You order have taken hold a second <i class="fas fa-check-circle fa-2x tickmark"></i> </p>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                                    </div>
+                                                                </div>
+                                                                </div>
+                                                            </div>
+                      <p class="card-text"><small class="text-muted">Buy one get one</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+ <!-- footer -->
+ <div class="container-fluid px-0 footer">
+    <div class="footer bg-primary px-5 py-3 ">
+        <div class="row">
+
+            <div class="col text-center my-3">
+                <h2>
+                  <i class="fas fa-map-marker-alt"></i>
+                    Our Location
+                </h2>
+                <p class="footertext">
+                        Bannari Amman Institute Of Technology Sathyamangalam Erode-638401
+                    </p>
+            </div>
+            <div class="col text-center my-3">
+                <h2>
+                    <i class="fas fa-envelope-square"></i>
+                    Email
+                </h2>
+                <p class="emailtext">
+                  <a href="email">  dinesha.ei19@bitsathy.ac..in</a>
+                </p>
+            </div>
+            <div class="col text-center my-3">
+                <h2>
+                    <i class="fas fa-address-book"></i>
+                    Contact Us
+                </h2>
+                <p class="emailtext">
+                  <a href="tel:8072626673"> 8072626673 </a>
+                </p>
+            </div>
+            <hr>
+            
+            <div class="social-media">
+
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.instagram.com/im.din_sh20/"><i class="fab fa-instagram fa-3x px-3 py-3 lifttotop"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.linkedin.com/in/dinesh-a-165729199/"><i class="fab fa-linkedin-in fa-3x px-3 py-3 lifttotop"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/Dines-A"><i class="fab fa-github fa-3x px-3 py-3 lifttotop"></i></a>
+                </li>
+
+            </div>
+            
+            <!-- lift to top -->
+
+            <div class="text-center my-5">
+             <p class="developer">
+              &#60;Dev&#62;Developed by <a href="https://www.linkedin.com/in/dinesh-a-165729199/" class="devrgb">Dinesha</a>&#60;&#47;Dev&#62; 
+             </p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

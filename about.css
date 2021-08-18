@@ -1,0 +1,90 @@
+body
+{
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+    background-color: rgb(241, 243, 240);
+    font-family: 'Poppins', sans-serif !important;
+}
+.bgc
+{
+    background-color: rgb(255, 120, 23);
+    border-radius: 5px;
+    padding: 5px;
+}
+.navbg{
+    padding-top: 20px !important;
+    opacity: 0.8;
+}
+.navbg:hover{
+    opacity: 1;
+}
+.navbarhover
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbarhover:hover
+{
+    border-radius: 10px;
+    background-color: #c5bbbbcc;
+}
+:-webkit-scrollbar
+{
+    width: 4px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: #f5de0d;
+    border-radius: 100px;
+}
+::-webkit-scrollbar-track
+{
+    background: #a5a4a4;
+    border-radius: 100px;
+}
+.justify
+{
+    text-align: justify;
+}
+.navbarhover a{
+    color: rgb(0, 0, 0) !important;
+}
+
+.colchar
+{
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #abadafab;
+}
+.colchar:hover
+{
+    box-shadow: 0px 0px 10px 10px #00000050;
+}
+.reachus a
+{
+    color: #000000;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+.reachus i
+{
+    color: #037ef8;
+    padding: 5px;
+    border-radius: 10px;
+}
+.lifttotop
+{
+    padding: 5px !important;
+}
+.lifttotop:hover
+{
+    background-color: #a3a0a07c;
+    box-shadow: 0 0 5px 5px #a3a0a0;
+    border-radius: 10px;
+}
+.social-media a
+{
+
+    color: #000000;
+}

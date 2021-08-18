@@ -1,0 +1,359 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+    background-image: url('./Pic/mainbg.jpg');
+    background-size: cover cover; 
+     background-attachment: fixed;
+
+    text-transform: capitalize !important;
+    color: #000000 !important;
+    /*     backdrop-filter: blur(5px);  -> this is for the blue the bg*/
+
+}
+#video
+{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    border-radius: 5px;
+
+}
+html
+{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar
+{
+    width: 4px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: #f5de0d;
+    border-radius: 100px;
+}
+::-webkit-scrollbar-track
+{
+    background: #a5a4a4;
+    border-radius: 100px;
+}
+.navbg{
+    padding-top: 20px !important;
+    opacity: 0.8;
+}
+.navbg:hover{
+    opacity: 1;
+}
+
+.findyourplace
+{
+    background-color: #dfdfdf;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(226, 225, 225, 0.884) 0px 3px 3px;
+}
+
+
+span{
+    animation: your 5s infinite;
+  }
+  
+  @keyframes your {
+      0%   {
+          color: #5d55ff;
+      }
+      10%
+      {
+          color: chartreuse;
+      }
+      20%  {
+          color: #e81a30;
+      }
+      30%
+      {
+          color: crimson;
+      }
+      40%
+      {
+          color: cyan;
+      }
+      50%
+      {
+          color: darkgoldenrod;
+      }
+      60%
+      {
+          color: darkorange;
+      }
+    70%  {
+        color: #f5de0d;
+    } 
+    80%
+    {
+        color: firebrick;
+    }
+    90%
+    {
+        color: mistyrose;
+    }
+    100% {
+        color: #19d95e;
+    }
+  }
+
+.devrgb
+{
+    animation: myname 5s infinite;
+}
+
+@keyframes myname {
+    0%   {
+        color: #5d55ff;
+    }
+    10%
+    {
+        color: chartreuse;
+    }
+    20%  {
+        color: #ff0019;
+    }
+    30%
+    {
+        color: rgb(0, 0, 0);
+    }
+    40%
+    {
+        color: cyan;
+    }
+    50%
+    {
+        color: darkgoldenrod;
+    }
+    60%
+    {
+        color: darkorange;
+    }
+  70%  {
+      color: #f5de0d;
+  } 
+  80%
+  {
+      color: firebrick;
+  }
+  90%
+  {
+      color: mistyrose;
+  }
+  100% {
+      color: #19d95e;
+  }
+}
+.acolor
+{
+    color: black !important;
+    text-decoration: none;
+}
+.joinour
+{
+    padding: 20px;
+    opacity: 0.8;
+    height: 150px;
+}
+.veryfirstcardp
+{
+    padding-top: 20%;
+}
+.joinour:hover
+{
+    opacity: 1;
+}
+.shadow
+{
+    height: 50px;
+}
+.shadow:hover
+{
+    background-color: #dcaa13 !important;
+}
+.navbarhover
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbarhover:hover
+{
+
+    border-radius: 10px;
+    background-color: #c5bbbbcc;
+
+
+}
+
+.navbarhover a{
+    color: rgb(0, 0, 0) !important;
+}
+.blocktext
+{
+    text-align: justify;
+}
+
+.fw-bold
+{
+    padding-top: 10%;
+    font-size: 5vw;
+    -webkit-text-stroke: 0.3vw #ffd311;
+    text-shadow: 50px 50px 40px rgb(255, 208, 0);
+}
+.imghover:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.mysearch-pl:hover
+{
+    opacity: 1;
+}
+
+.mysearch-pl{
+    margin-top: 10%;
+    width: 1000px;
+    opacity: 0.7;
+}
+nav input{
+    height: 50px;
+    border-radius: 30px !important;
+    color: #000000 !important;
+}
+.searchbtn{
+    border-radius: 50px !important;
+    width: 20%;
+    height: 50px;
+}
+.searchbtn:hover
+{
+    width: 15%;
+}
+.fa-search:hover
+{
+    font-size: 40px;
+    padding: 10px auto;
+}
+
+.textbg
+{
+    background-color: #ffffff8c !important;
+    color: #000000;
+}
+.enjoybg
+{
+    background-color: blanchedalmond;
+    opacity: 0.8;
+    text-align: justify;
+}
+.footertext
+{
+    text-align: justify;
+}
+.footer a
+{
+    color: black;
+    text-decoration: none;
+}
+.footer a:hover
+{
+    color: black;
+}
+.emailtext
+{
+    text-transform:lowercase;
+    text-align: center;
+}
+.my
+{
+    margin-top: 13% !important;
+}
+.colhover
+{
+    text-align: justify;
+    word-spacing: 4px;
+}
+
+.joinbtnhover:hover
+{
+    animation: joinbtnhover 5s infinite;
+    animation-delay: 200ms;
+  }
+  
+  @keyframes joinbtnhover{
+      0%   {
+          font-size: 35px;
+      }
+
+    100% {
+            font-size: 20px;
+    }
+  }
+.cardbr
+{
+    border-radius: 50px;
+}
+.colhover:hover
+{
+    opacity: 0.8;
+}
+.developer
+{
+    color: #000000;
+}
+.social-media i
+{
+    color: black !important;
+    padding: 5px !important;
+}
+.lifttotop:hover
+{
+    background-color: #a3a0a07c;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px black;
+}
+.iconcontentsbg
+{
+    background-color: #ffffff5d;
+    border-radius: 20px;
+}
+.iconcontentsbg:hover
+{
+    background-color: #ffffff9a;
+
+}
+.iconcontentsbg a
+{
+    color: #000000 !important;
+    text-decoration: none;
+}
+.iconcontentsbg i
+{
+    color: #000000 !important;
+    padding: 30px 20px;
+    margin: 10px 20px;
+    background-color: #8d8989c9;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.iconcontentsbg i:hover
+{
+    font-size: 50px;
+    background-color: #ffd0007a;
+    border:7px solid #ff000093;
+    box-shadow: 0px 0px 10px red;
+}
+
+.modal-content 
+{
+    background-color: rgba(255, 208, 0, 0.664) !important;
+}
+.modal-content  input{
+    background-color: rgba(255, 208, 0, 0.253) !important;
+
+}

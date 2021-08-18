@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Hotel</title>
+    <!-- css -->
+    <link rel="stylesheet" href="hotel.css">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+     crossorigin="anonymous">
+
+     <!-- Bootstrap js -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+     <!-- Bundle js -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" 
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+     <!-- google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+     
+
+    <!-- awesome icon  -->
+    <script src="https://kit.fontawesome.com/a21faf7147.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="container-fluid px-0">
+            
+
+        <!-- navbar -->
+        <div class="header">
+            
+    
+          <nav class="navbar navbar-expand-lg bg-white navbg ">
+            <div class="container-fluid">
+              
+              <a class="navbar-brand" href="#"> <img src="./Pic/logo.png" alt="Banner" width="100px" height="70px" class="rounded-3 "> </a>
+    
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+               aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-sliders-h fa-2x"></span>
+              </button>
+    
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+                <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+                  <li class="nav-item navbarhover px-5 ">
+                    <a class="nav-link active" aria-current="page" href="Index.html">home</a>
+                  </li>
+                  <li class="nav-item navbarhover px-5 ">
+                    <a class="nav-link " href="Profile.html">Profile</a>
+                  </li>
+                  <li class="nav-item navbarhover px-5 ">
+                    <a class="nav-link " href="msg.html">message</a>
+                  </li>
+                  <li class="nav-item navbarhover px-5 ">
+                    <a class="nav-link " href="about.html">about</a>
+                  </li>
+    
+                </ul>
+    
+          </div>
+          </div>
+          </nav>
+    </div>
+    </div>
+
+
+<div class="container">
+
+  <div class="row justify-content-between">
+    <div class="col-4 my-2">
+      <a href="Index.html" class="btn btn-primary " ><i class="fas fa-chevron-left fa-2x"></i></a>
+    </div>
+    <div class="col-4 my-2 text-end">
+      <a href="cantin.html" class="btn btn-primary" ><i class="fas fa-chevron-right fa-2x"></i></a>
+    </div>
+
+</div>
+</div>
+
+<div class="container">
+        <div class="h3 text-center my-5">Hurry up! Offer is Going on</div>
+</div>
+
+<div class="container my-5">
+
+    <div class="row my-5">
+        <div class="col">
+            <input class="form-control" type="search" placeholder="Search Your Hotel ?" aria-label="Search">
+        </div>
+    </div>
+
+<div class="row my-5">
+    <div class="col">
+        <p>Checkin date</p>
+        <input type="date" name="checkin" id="checkin" placeholder="checkin">
+    </div>
+    <div class="col">
+        <p>checkout</p>
+        <input type="date" name="checkin" id="checkin" placeholder="checkin">
+    </div>
+</div>
+
+<div class="row my-5">
+    <div class="col">
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Count of Adults</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="2">Four</option>
+            <option value="3">Five</option>
+            </select>
+    </div>
+    <div class="col">
+        
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Count of Children</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="2">Four</option>
+            <option value="3">Five</option>
+          </select>
+    </div>
+</div>
+
+<div class="row my-5">
+    <div class="col">
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Number of Rooms</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+
+    </div>
+</div>
+
+            <div class="text-center"><button class="btn btn-outline-success px-5" type="submit">Search</button></div>
+          </form>
+
+    </div>
+
+<!-- content -->
+
+<div class="container my-5">
+    <div class="text-center ">
+        <h2 class="my-4">Model Rooms</h2>
+    </div>
+    <div class="row">
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 my-3">
+
+            <div class="card">
+                <img src="./Pic/Hotel/beachhotel.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">The New View</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 
+
+
+                  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <a href="#"class="Booknow" >Book Now <span class="badge rounded-pill bg-warning">1</span></a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content modelgreen">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> The New View Booked </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         Welcome to Our Hotel <i class="fas fa-check-circle fa-2x tickmark"></i>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+                </div>
+              </div>
+
+        </div>
+
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 my-3">
+
+            <div class="card">
+        <img src="./Pic/Hotel/bed.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Hotel Bliss</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 
+
+
+                  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalcol-2">
+    <a href="#"class="Booknow" >Book Now <span class="badge rounded-pill bg-warning">5</span></a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalcol-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content modelgreen">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Hotel Bliss Booked </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         Welcome to Our Hotel <i class="fas fa-check-circle fa-2x tickmark"></i>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+                </div>
+              </div>
+
+        </div>
+
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 my-3">
+
+            <div class="card">
+        <img src="./Pic/Hotel/maid.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">24*7</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 
+
+
+ <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalcol-3">
+    <a href="#"class="Booknow" >Book Now 
+        <span class="badge rounded-pill bg-warning">7</span></a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalcol-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content modelgreen">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> hotel 24*7 Booked </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         Welcome to Our Hotel <i class="fas fa-check-circle fa-2x tickmark"></i>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="container my-5">
+    <div class="text-center ">
+        <h2 class="my-4">Middle Class Rooms</h2>
+    </div>
+
+
+    <div class="row">
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 my-3">
+
+            <div class="card" >
+                <img src="./Pic/Hotel/beachhotel.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kings Inn</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 
+
+
+                  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalcol-4">
+    <a href="#"class="Booknow" >Book Now <span class="badge rounded-pill bg-danger">0</span></a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalcol-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content modelred">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Kings Inn </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Rooms are already Reserved <i class="fas fa-times fa-2x ticketred"></i>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+                </div>
+              </div>
+
+        </div>
+
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 my-3">
+
+            <div class="card">
+        <img src="./Pic/Hotel/bed.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Sunset Lodge</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 
+
+
+                  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalcol-5">
+    <a href="#"class="Booknow" >Book Now <span class="badge rounded-pill bg-danger">0</span></a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalcol-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content modelred">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> OOPS !Sunset Lodge </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         Rooms are already Reserved <i class="fas fa-times fa-2x ticketred"></i>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+                </div>
+              </div>
+
+        </div>
+
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 my-3">
+
+            <div class="card" >
+        <img src="./Pic/Hotel/maid.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Hotel Elite</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 
+
+
+ <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalcol-6">
+    <a href="#"class="Booknow" >Book Now 
+        <span class="badge rounded-pill bg-warning">11</span></a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalcol-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content modelgreen">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> Hotel Elite Booked </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         Welcome to Our Hotel <i class="fas fa-check-circle fa-2x tickmark"></i>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+ <!-- footer -->
+ <div class="container-fluid px-0 footer">
+    <div class="footer bg-primary px-5 py-3 ">
+        <div class="row">
+
+            <div class="col text-center my-3">
+                <h2>
+                  <i class="fas fa-map-marker-alt"></i>
+                    Our Location
+                </h2>
+                <p class="footertext">
+                        Bannari Amman Institute Of Technology Sathyamangalam Erode-638401
+                    </p>
+            </div>
+            <div class="col text-center my-3">
+                <h2>
+                    <i class="fas fa-envelope-square"></i>
+                    Email
+                </h2>
+                <p class="emailtext">
+                  <a href="email">  dinesha.ei19@bitsathy.ac..in</a>
+                </p>
+            </div>
+            <div class="col text-center my-3">
+                <h2>
+                    <i class="fas fa-address-book"></i>
+                    Contact Us
+                </h2>
+                <p class="emailtext">
+                  <a href="tel:8072626673"> 8072626673 </a>
+                </p>
+            </div>
+            <hr>
+            
+            <div class="social-media">
+
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.instagram.com/im.din_sh20/"><i class="fab fa-instagram fa-3x px-3 py-3 lifttotop"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.linkedin.com/in/dinesh-a-165729199/"><i class="fab fa-linkedin-in fa-3x px-3 py-3 lifttotop"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/Dines-A"><i class="fab fa-github fa-3x px-3 py-3 lifttotop"></i></a>
+                </li>
+
+            </div>
+            
+            <!-- lift to top -->
+
+            <div class="text-center my-5">
+             <p class="developer">
+              &#60;Dev&#62;Developed by <a href="https://www.linkedin.com/in/dinesh-a-165729199/" class="devrgb">Dinesha</a>&#60;&#47;Dev&#62; 
+             </p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Shop</title>
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="Index.css">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+     crossorigin="anonymous">
+
+     <!-- Bootstrap js -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+     <!-- Bundle js -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" 
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+     <!-- google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+     
+
+    <!-- awesome icon  -->
+    <script src="https://kit.fontawesome.com/a21faf7147.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+<!--  container-fluid bg-video header-nav login button-->
+<div class="container-fluid px-0 " id="lifttotop">
+
+ <!-- bg video -->
+      <video id="video" autoplay muted loop >
+        <source src="./Video/webbg2.0.mp4">
+      </video>
+
+      <!-- header -->
+<div class="header">
+        
+
+                  <nav class="navbar navbar-expand-lg bg-white navbg ">
+                    <div class="container-fluid">
+                      
+                      <a class="navbar-brand" href="#"> <img src="./Pic/logo.png" alt="Banner" width="100px" height="70px" class="rounded-3 "> </a>
+
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                       aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fas fa-sliders-h fa-2x"></span>
+                      </button>
+
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+                          <li class="nav-item navbarhover px-5 ">
+                            <a class="nav-link active" aria-current="page" href="Index.html">home*</a>
+                          </li>
+                          <li class="nav-item navbarhover px-5 ">
+                            <a class="nav-link " href="Profile.html">Profile</a>
+                          </li>
+                          <li class="nav-item navbarhover px-5 ">
+                            <a class="nav-link " href="msg.html">message</a>
+                          </li>
+                          <li class="nav-item navbarhover px-5 ">
+                            <a class="nav-link " href="about.html">about</a>
+                          </li>
+        
+                        </ul>
+
+                  <!-- login signup button -->
+
+                                                          
+                <!-- Button trigger modal -->
+                
+                <button type="button" class="btn btn-warning  mx-3 mt-1 shadow" 
+                 data-bs-toggle="modal" data-bs-target="#exampleModal">
+                   Login<i class="fas fa-sign-in-alt mx-2"></i>
+                </button>
+      
+                <button type="button" class="btn btn-warning  mx-3 mt-1 shadow" 
+                  data-bs-toggle="modal" data-bs-target="#exampleModalsignin">
+                    Signup<i class="fas fa-user-plus mx-2"></i>
+                </button>
+
+                  </div>
+                  </div>
+                  </nav>
+
+                <!-- Modal -->
+                 <div class="modal " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                             <div class="modal-dialog modal-dialog-centered ">
+                                                  <div class="modal-content">
+                                                    <div class="modal-header">
+                                                      <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                      
+                                                      <form>
+                                                        <div class="mb-3">
+                                                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                                                          <div id="emailHelp" class="form-text bg-dark">We'll never share your email with anyone else.</div>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                                                          <input type="password" class="form-control" id="exampleInputPassword1" required>
+                                                        </div>
+                                                        <div class="mb-3 form-check">
+                                                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                          <label class="form-check-label" for="exampleCheck1" required>
+                                                            <a href="#">Accept trems and conditions..</a>
+                                                          </label>
+                                                        </div>
+                                                        <div class="text-center">
+                                                          <button type="submit" class="btn btn-primary">Submit</button>
+                                                        </div>
+                                                      </form>
+
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                      <button type="button" class="btn btn-primary">Save changes</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                </div>
+
+
+
+                 <div class="modal " id="exampleModalsignin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered ">
+                                                  <div class="modal-content">
+                                                    <div class="modal-header">
+                                                      <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+                                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                      
+                                                      <form class="row g-3">
+                                                        <div class="col-md-6">
+                                                          <label for="Firstname" class="form-label">Firstname</label>
+                                                          <input type="text" class="form-control" id="Firstname" required>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                          <label for="lastname" class="form-label">lastname</label>
+                                                          <input type="text" class="form-control" id="lastname">
+                                                        </div>
+
+                                                        <div class="col-md-12">
+                                                          <label for="inputEmail4" class="form-label">Email</label>
+                                                          <input type="email" class="form-control" id="inputEmail4">
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                          <label for="inputPassword4" class="form-label">Password</label>
+                                                          <input type="password" class="form-control" id="inputPassword4" required>
+                                                        </div>
+
+                                                        <div class="col-12">
+                                                          <label for="inputAddress" class="form-label">Address</label>
+                                                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+                                                        </div>
+                                                        <div class="col-12">
+                                                          <label for="inputAddress2" class="form-label">Address 2</label>
+                                                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                          <label for="inputCity" class="form-label">City</label>
+                                                          <input type="text" class="form-control" id="inputCity" required>
+                                                        </div>
+
+                                                        <div class="col-md-4">
+                                                          <label for="inputZip" class="form-label">Zip</label>
+                                                          <input type="text" class="form-control" id="inputZip" required>
+                                                        </div>
+                                                        <div class="col-12">
+                                                          <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                                            <label class="form-check-label" for="gridCheck">
+                                                            <a href="#">Accept Terms and Conditions..</a>
+                                                            </label>
+                                                          </div>
+                                                        </div>
+                                                        <div class="col-12 text-center">
+                                                          <button type="submit" class="btn btn-primary">Sign in</button>
+                                                        </div>
+                                                      </form>
+
+
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                      <button type="button" class="btn btn-primary">Save changes</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                 </div>
+                  </ul>
+</div>
+</div>
+
+<!--  container-fluid heading of the web page  -->
+<div class="container-fluid  mb-5 px-0">
+
+        <div class="display-1 text-center text-dark pt-5 findyourplace"> <span> Find your Place </span> </div>
+
+</div>
+
+<!-- search bar -->
+<nav class="navbar pt-5 justify-content-center">
+
+    <form class="mysearch-pl " >
+      <input class="form-control text-center" type="search" placeholder="What are you looking for?" aria-label="Search" >
+    <div class="text-center">
+      <button class="btn btn-info searchbtn my-5" type="submit"><i class="fas fa-search fa-2x"></i></button>
+    </div>
+    </form>
+
+</nav>
+ 
+
+<!-- container-fluid icons contents  awesome icons  -->
+<div class="container iconcontentsbg  mt-5">
+<div class="row">
+  <div class="col text-center ">
+<a href="hotel.html">
+      <i class="fas fa-concierge-bell fa-4x"></i>
+     <p>
+      Hotel
+    </p>
+</a>
+  </div>
+  <div class="col text-center ">
+<a href="cantin.html">
+      <i class="fas fa-mug-hot fa-4x"></i>
+    <p>
+      cafeteria
+    </p>
+</a>
+  </div>
+   <div class="col text-center ">
+<a href="gym.html" target="_blank">
+      <i class="fas fa-dumbbell fa-4x"></i>
+    <p>
+      gym
+    </p>
+</a>
+  </div>
+  <div class="col text-center ">
+<a href="https://www.google.com/maps/@10.7828364,78.2885026,7z" target="_blank">
+  <i class="fas fa-futbol fa-4x"></i>
+  <p>
+    Sports
+  </p>
+</a>
+  </div>
+  <div class="col text-center ">
+<a href="Closed.html">
+       <i class="fas fa-hand-spock fa-4x"></i>
+    <p>
+       Events
+     </p>
+</a>
+   </div>
+   <div class="col text-center ">
+    <a href="http://new-gen.epizy.com/" target="_blank">
+      <i class="fas fa-film fa-4x"></i>
+      <p>
+      cinema
+      </p>
+    </a>
+  </div>
+ </div>
+</div>     
+
+<!-- container catagries -->
+<div class="container mb-5 veryfirstcardp">
+
+            <h1 class="text-center my-5  text-white">categories</h1>
+
+            <div class="row my-3">
+                <h3 class="text-start text-white my-5">
+                  clothes
+                </h3>
+
+
+
+                <div class="col-sm-12  col-md-12 col-lg-3 col-xl-3 col-xxl-3 colhover">
+                  <div class="card mb-3 textbg">
+                      <h1 class="text-center py-4">Hello,We clothes</h1>
+                      <p class="px-3 blocktext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam iure doloremque maiores nemo
+                         eum doloribus tenetur sunt similique aperiam, ratione deserunt atque, harum reprehenderit dolores architecto cupiditate itaque a.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam iure doloremque maiores nemo
+                      </p>
+                      <p class="card-text text-end py-4"><small class="text-muted px-2">Urban Cloths added</small></p>
+                    </div>
+                  </div>
+
+
+                  
+                <div class="col-sm-12  col-md-12 col-lg-3 col-xl-3 col-xxl-3 colhover">
+                  <div class="card mb-3 ">
+                    <img src="./Pic/dresses.jpg" class="card-img-top" alt="Clotherscatagre" height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Your Little Shop</h5>
+                      <p class="card-text my-4">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="text-center my-3">
+                        <button class="btn btn-danger">view</button>
+                      </div>
+                      <p class="card-text text-end"><small class="text-muted px-2">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+  
+  
+                <div class="col-sm-12  col-md-12 col-lg-3 col-xl-3 col-xxl-3 colhover">
+                  <div class="card mb-3">
+                    <img src="./Pic/clothsgirl.jpg" class="card-img-top" alt="Clotherscatagre" height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Polka Dots</h5>
+                      <p class="card-text my-4">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="text-center my-3">
+                        <button class="btn btn-info">view</button>
+                      </div>
+                      <p class="card-text text-end"><small class="text-muted px-2">Last updated 30 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-sm-12  col-md-12 col-lg-3 col-xl-3 col-xxl-3 colhover">
+                  <div class="card mb-3">
+                    <img src="./Pic/shoes.jpg" class="card-img-top" alt="Clotherscatagre" height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Dress Up Dress Shop</h5>
+                      <p class="card-text my-4">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="text-center my-3">
+                        <button class="btn btn-success">view</button>
+                      </div>
+                      <p class="card-text text-end"><small class="text-muted px-2">Loading..</small></p>
+                    </div>
+                  </div>
+                </div>
+
+
+                </div>
+
+                <div class="row my-3">
+                  <h3 class="text-start text-white my-5">
+                    jewelry
+                  </h3>
+
+                  <div class="col-sm-12  col-md-12 col-lg-3 col-xl-3 col-xxl-3 colhover ">
+                    <div class="card mb-3 textbg">
+                        <h1 class="text-center py-4">Hello,We    jewelry</h1>
+                        <p class="px-3 blocktext">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam iure doloremque maiores nemo
+                           eum doloribus tenetur sunt similique aperiam, ratione deserunt atque, harum reprehenderit dolores architecto cupiditate itaque a.
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam iure doloremque maiores nemo
+                        </p>
+                        <p class="card-text text-end py-4"><small class="text-muted px-2">Online paymet accept</small></p>
+                      </div>
+                    </div>
+                 
+
+
+                <div class="col-sm-12  col-md-12 col-lg-3 col-xl-3 col-xxl-3 colhover">
+                  <div class="card mb-3">
+                    <img src="./Pic/greenchain.jpg" class="card-img-top" alt="jewels" height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Diamond Sea</h5>
+                      <p class="card-text my-4">This is a wider card with supporting text below as a natural lead-in to 
+                        additional content. This content is a little bit longer.</p>
+                       <div class="text-center my-3">
+                        <button class="btn btn-primary">view</button>
+                      </div>
+                      <p class="card-text text-end"><small class="text-muted px-2 ">Diamonds are added</small></p>
+                    </div>
+                  </div>
+                </div>
+            
+            
+
+            
+                <div class="col-sm-12  col-md-12 col-lg-3 col-xl-3 col-xxl-3 colhover">
+                  <div class="card mb-3">
+                    <img src="./Pic/girlhanginonchain.jpg" class="card-img-top" alt="jewels" height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">The  Golden Goose</h5>
+                      <p class="card-text my-4">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                       <div class="text-center my-3">
+                        <button class="btn btn-warning">view</button>
+                      </div>
+                      <p class="card-text text-end"><small class="text-muted px-2 "><i class="fas fa-exclamation-triangle "></i></small></p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-sm-12  col-md-12 col-lg-3 col-xl-3 col-xxl-3 colhover">
+                  <div class="card mb-3">
+                    <img src="./Pic/bluebirdchain.jpg" class="card-img-top" alt="jewels" height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title text-center" >Goldan House</h5>
+                      <p class="card-text my-4">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                       <div class="text-center my-3">
+                        <button class="btn btn-secondary">view</button>
+                      </div>
+                      <p class="card-text text-end"><small class="text-muted px-2 ">Last updated 1 months ago</small></p>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+
+</div>
+
+<!-- container   view all  button-->
+<div class="container text-center my-5">
+    <div class="btn btn-primary btn-lg">view all</div>
+</div>
+
+<!--Popular listings  herizontal card -->
+<div class="container my-5">
+  
+  <h1 class="text-center my-5 text-white">
+  Popular listings
+  </h1>
+
+  <div class="row my-5">
+
+
+    <div class="col-sm-12  col-md-12 col-lg-4 col-xl-4 col-xxl-4 colhover pb-4">
+      <div class="card">
+        <div class="row">
+          <div class="col-md-6 ">
+            <img src="./Pic/rescheersglass.jpg" class="img-fluid rounded-start" alt="cinemapopcorn" height="50px">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <p class="card-text "> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis deserunt</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="col-sm-12  col-md-12 col-lg-4 col-xl-4 col-xxl-4 colhover pb-4">
+      <div class="card">
+        <div class="row">
+          <div class="col-md-6 ">
+            <img src="./Pic/events.jpg" class="img-fluid rounded-start" alt="cinemapopcorn" height="50px">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <p class="card-text "> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis deserunt</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-12  col-md-12 col-lg-4 col-xl-4 col-xxl-4 colhover pb-4">
+      <div class="card">
+        <div class="row">
+          <div class="col-md-6 ">
+            <img src="./Pic/flatblack.jpg" class="img-fluid rounded-start" alt="cinemapopcorn" height="50px">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <p class="card-text "> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis deserunt</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+
+
+
+
+  </div>
+
+  <div class="row my-5">
+
+
+    <div class="col colhover">
+      <div class="card">
+        <div class="row">
+          <div class="col-md-6 ">
+            <img src="./Pic/gamebaskitball.jpg" class="img-fluid rounded-start" alt="..." >
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <p class="card-text"> lorem </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="col colhover">
+      <div class="card">
+        <div class="row">
+          <div class="col-md-6 ">
+            <img src="./Pic/market2.jpg" class="img-fluid rounded-start" alt="..." >
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <p class="card-text"> lorem </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col colhover">
+      <div class="card">
+        <div class="row">
+          <div class="col-md-6 ">
+            <img src="./Pic/rescakefoods.jpg" class="img-fluid rounded-start" alt="..." >
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <p class="card-text"> lorem </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+
+
+
+
+  </div>
+  
+</div>
+
+<!-- above the Join button 3images -->
+<div class="container-fluid enjoybg px-5">
+
+        <div class="row">
+
+          <h2 class="text-center my-5">
+            Enjoy Your Day
+          </h2>
+
+          <div class="col my-5 mx-5">
+            <div class="text-center">
+              <img src="./Pic/enjoy.png " alt="Enjoy your Day" class="imghover" width="200" height="200" >
+              <p class="h4 my-4" >
+                Find your Good spot
+              </p>
+              
+            </div>
+            <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Aut nostrum similique sapiente maiores eligendi quis blanditiis. Sunt,
+             inventore necessitatibus in debitis, similique pariatur incidunt accusamus tenetur temporibus perspiciatis, quam sed?
+            </p>
+              <div class="text-center">
+                <button class="btn btn-warning">
+                  <i class="fas fa-street-view fa-2x"></i>
+                </button>
+
+              </div>
+          </div>
+          <div class="col my-5 mx-5">
+            <div class="text-center">
+              <img src="./Pic/enjoy.png " alt="Enjoy your Day" class="imghover" width="200" height="200" >
+              <p class="h4 my-4" >
+                Find your Good spot
+              </p>
+              
+            </div>
+            <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Aut nostrum similique sapiente maiores eligendi quis blanditiis. Sunt,
+             inventore necessitatibus in debitis, similique pariatur incidunt accusamus tenetur temporibus perspiciatis, quam sed?
+            </p>
+              <div class="text-center">
+                <button class="btn btn-warning ">
+                  <i class="fas fa-street-view fa-2x"></i>
+                </button>
+              </div>
+          </div>
+          <div class="col my-5 mx-5">
+            <div class="text-center">
+              <img src="./Pic/enjoy.png " alt="Enjoy your Day" class="imghover" width="200" height="200" >
+              <p class="h4 my-4" >
+                Find your Good spot
+              </p>
+              
+            </div>
+            <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Aut nostrum similique sapiente maiores eligendi quis blanditiis. Sunt,
+             inventore necessitatibus in debitis, similique pariatur incidunt accusamus tenetur temporibus perspiciatis, quam sed?
+            </p>
+              <div class="text-center">
+                <button class="btn btn-warning ">
+                  <i class="fas fa-street-view fa-2x"></i>
+                </button>
+              </div>
+          </div>
+
+        </div>
+
+ </div>
+
+ <!-- Join with our community -->
+<div class="container-fluid bg-white joinour">
+        <div class="text-center">
+          <h2>
+            Join with Our community  
+          </h2>
+          <button class=" btn btn-warning btn-lg">Join <i class="fas fa-plus mx-2 joinbtnhover"></i> </button> 
+        </div>
+ </div>
+
+ <!-- footer -->
+<div class="container-fluid px-0 footer">
+                <div class="footer bg-primary px-5 py-3 ">
+                    <div class="row">
+
+                        <div class="col text-center my-3">
+                            <h2>
+                              <i class="fas fa-map-marker-alt"></i>
+                                Our Location
+                            </h2>
+                            <p class="footertext">
+                                    Bannari Amman Institute Of Technology Sathyamangalam Erode-638401
+                                </p>
+                        </div>
+                        <div class="col text-center my-3">
+                            <h2>
+                                <i class="fas fa-envelope-square"></i>
+                                Email
+                            </h2>
+                            <p class="emailtext">
+                              <a href="email">  dinesha.ei19@bitsathy.ac..in</a>
+                            </p>
+                        </div>
+                        <div class="col text-center my-3">
+                            <h2>
+                                <i class="fas fa-address-book"></i>
+                                Contact Us
+                            </h2>
+                            <p class="emailtext">
+                              <a href="tel:8072626673"> 8072626673 </a>
+                            </p>
+                        </div>
+                        <hr>
+                        
+                        <div class="social-media">
+
+                          <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                              <a class="nav-link " href="https://www.instagram.com/im.din_sh20/"><i class="fab fa-instagram fa-3x px-3 py-3 lifttotop"></i></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="https://www.linkedin.com/in/dinesh-a-165729199/"><i class="fab fa-linkedin-in fa-3x px-3 py-3 lifttotop"></i></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="https://github.com/Dines-A"><i class="fab fa-github fa-3x px-3 py-3 lifttotop"></i></a>
+                            </li>
+
+                        </div>
+                        
+                        <!-- lift to top -->
+
+                        <div class="text-center my-5">
+                         <p class="developer">
+                          &#60;Dev&#62;Developed by <a href="https://www.linkedin.com/in/dinesh-a-165729199/" class="devrgb">Dinesha</a>&#60;&#47;Dev&#62; 
+                         </p>
+                        </div>
+                        <div class="text-end">
+                          <button class="btn lifttotop">  <a href="#lifttotop"> <i class="fas fa-chevron-up fa-3x text-dark"></i>  </a>  </button>
+                        </div>
+                    </div>
+                </div>
+
+</div>
+
+
+</body>
+</html>
+

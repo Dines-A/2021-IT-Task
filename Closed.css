@@ -1,0 +1,24 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    background: url('./Pic/sorryclosed.jpg');
+    background-size: cover;
+}
+.mtcss
+{
+    margin-top: 10%;
+}
+:-webkit-scrollbar
+{
+    width: 4px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: #f5de0d;
+    border-radius: 100px;
+}
+::-webkit-scrollbar-track
+{
+    background: #a5a4a4;
+    border-radius: 100px;
+}

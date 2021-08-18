@@ -1,0 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+    background-color: #a3a0a025 !important;
+}
+.heading
+{
+    background-color:#ff5e00;
+    border-radius: 10px;
+}
+.navbg{
+    padding-top: 20px !important;
+    opacity: 0.8;
+}
+.navbg:hover{
+    opacity: 1;
+}
+.navbarhover
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+.userava
+{
+    opacity: 0.8;
+}
+.userava:hover
+{
+    opacity: 1;
+}
+.file-upload-input
+{
+    z-index: 1;
+    position: relative;
+    left: -8.5%;
+    top: 40%;
+    width: 110px;
+}
+.fa-check-double
+{
+    color: #0a58ff;
+}
+.useravator
+{
+    padding: 50px;
+}
+.navbarhover:hover
+{
+    border-radius: 10px;
+    background-color: #c5bbbbcc;
+}
+.navbarhover a{
+    color: rgb(0, 0, 0) !important;
+}
+.dob
+{
+    width: 40% !important;
+}
