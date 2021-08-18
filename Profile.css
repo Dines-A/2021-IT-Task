@@ -29,14 +29,7 @@ body{
 {
     opacity: 1;
 }
-.file-upload-input
-{
-    z-index: 1;
-    position: relative;
-    left: -8.5%;
-    top: 40%;
-    width: 110px;
-}
+
 .fa-check-double
 {
     color: #0a58ff;
